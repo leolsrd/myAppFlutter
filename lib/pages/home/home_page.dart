@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myappflutter/widget/my_appBar.dart';
+import 'package:myappflutter/widget/my_body.dart';
 import 'package:myappflutter/widget/my_drawer.dart';
 
 class HomePage extends StatefulWidget {
@@ -15,9 +16,7 @@ class _HomePageState extends State<HomePage> {
     return const Scaffold(
       drawer: MyDrawer(),
       appBar: MyAppBar(),
-      body: Center(
-        child: Text('Body'),
-      ),
+      body: MyBody(),
     );
   }
 }

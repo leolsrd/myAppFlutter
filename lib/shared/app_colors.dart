@@ -4,4 +4,5 @@ class AppColors {
   static Color black = const Color(0xff000000);
   static Color yellow = const Color.fromARGB(255, 222, 188, 21);
   static Color white = const Color(0xffffffff);
+  static Color gray = const Color.fromARGB(206, 180, 179, 178);
 }
